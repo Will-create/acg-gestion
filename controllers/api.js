@@ -1,11 +1,8 @@
 const Path = require('path');
-
 exports.install = function() {
-
 	// Profile
 	ROUTE('+POST    /api/upload/photo/', json_upload_photo, 1024 * 2);
 	ROUTE('+POST    /api/upload/background/', json_upload_background, ['upload'], 1024 * 5);
-
 	// External
 	ROUTE('GET     /api/users/                    *Users                --> public');
 	ROUTE('GET     /api/apps/                     *Apps                 --> public');
@@ -20,10 +17,10 @@ exports.install = function() {
 	ROUTE('GET     /verify/', json_verify);
 	ROUTE('GET     /guest/', redirect_guest);
 	ROUTE('+GET    /internal/screenshots/{id}/    *Users/Reports        --> screenshot');
-
 	// CORS
 	CORS();
 
+	ROUTE('FILE /photos/', all_images);
 	ROUTE('FILE /photos/*.*', handle_images);
 	ROUTE('FILE /backgrounds/*.*', handle_images);
 };
@@ -36,6 +33,10 @@ function handle_images(req, res) {
 		res.file(Path.join(path, req.split[1]));
 	} else
 		res.throw404();
+}
+function all_images(){
+	var self = this;
+	console.log(self.files());
 }
 
 function json_verify() {

@@ -1,2 +1,2 @@
 // PostgreSQL database:
-database                 : postgresql://user:password@localhost:5432/database
+database                 : postgresql://postgres:acgdevteam@213.246.56.170:5432/gestionacg

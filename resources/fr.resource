@@ -1,750 +1,830 @@
 // Total.js translation file
-// Created: 2020-03-06 01:14
+// Created: 2021-02-03 16:15
 
-error-invalid-url            : URL Faso-school non valide.
-error-users-404              : Utilisateur non trouvé.
-error-users-group            : Groupe "@" introuvable.
-error-users-role             : Rôle "@" introuvable.
-error-permissions            : Vous ne disposez pas des autorisations requises.
-error-invalid-accesstoken    : Jeton d'accès non valide.
-error-credentials            : Les informations d'identification invalides.
-error-blocked                : Votre compte a été bloqué.
-error-settings-smtp          : Un problème avec SMTP: @.
-error-inactive               : Votre compte est inactif.
-error-invalid-origin         : Votre adresse IP n'est pas dans la liste blanche.
-error-accessible             : Le compte utilisateur n'est pas accessible.
-error-notifications          : L'utilisateur a beaucoup de notifications non lues.
-error-notifications-muted    : L'utilisateur a désactivé les notifications pour cette application.
-error-offline                : L'utilisateur est hors ligne
-error-file-type              : Type de fichier invalide.
-error-apps-404               : Application non trouvée.
-error-apps-offline           : L'application est hors ligne.
-error-apps-exists            : L'application existe déjà dans la base de données.
-error-apps-meta              : L'application contient des métadonnées non valides.
-error-pin                    : Le code PIN n'est pas valide.
-error-services-app           : Application invalide.
-error-services-notsupported  : L'application ne prend pas en charge les services.
-error-services-endpoint      : L'application ne prend pas en charge le point de terminaison "@".
-error-services-invalid       : Les services ne sont pas définis.
-error-totp                   : Le jeton n'est pas valide.
-error-smtp                   : Vous devez définir un nom d'hôte SMTP.
-error-otp-code               : Le code de mot de passe à usage unique n'est pas valide.
-error-otp-session            : La session de mot de passe à usage unique a expiré.
-error-blocked-ip             : Votre adresse IP a été bloquée.
-error-users-email            : L'adresse e-mail est déjà utilisée par un autre utilisateur.
-error-users-login            : Le nom de connexion est déjà utilisé par un autre utilisateur.
-error-members-limit          : Vous avez dépassé un nombre maximum de membres.
-error-data                   : Données invalides
-error-invalid-clientkey      : Clé client OAuth 2 non valide
-error-nooauth                : Le service OAuth 2.0 est inactif.
-error-noaccesstoken          : Le service de jeton d'accès est inactif.
-error-oauthsync              : Problème non géré avec les comptes de synchronisation via OAuth 2.0
-error-oauthfields            : OAuth 2.0 n'envoie pas toutes les informations sur l'utilisateur
-
+// schemas/ui.js
+404                           : 404
+error-components-exists       : erreur-composants-existent
 
 // controllers/api.js
-T-2109762714     : erreur-type-fichier
+error-file-type               : erreur-type-fichier
 
-// definitions/openplatform.js, views/admin.html, views/portal.html, views/tabbed.html, views/windowed.html
-T218986849       : Panneau de control
+// controllers/default.js
+error-invalid-clientkey       : erreur-clé-client-invalide
 
-// definitions/openplatform.js, views/portal.html, views/tabbed.html, views/windowed.html, views/mails/welcome.html
-T-1397214398     :  Bienvenue
+// controllers/default.js, definitions/openplatform.js
+error-invalid-accesstoken     : erreur-token-invalide
+
+// definitions/openplatform.js, views/mails/welcome.html
+T1bx8wg2                      : Bienvenue
+
+// definitions/openplatform.js, views/admin.html, views/tabbed.html, views/windowed.html
+T3mdnc1                       : Paneau de control
 
 // definitions/openplatform.js
-T487334413       : Compte
-T1595062522      : erreur-clé_d'accès-invalide
-T1409867297      : erreur-Origine-invalide
+T8259n1                       : Compte
+error-invalid-origin          : erreur-origin-invalid
 
-// definitions/openplatform.js, public/panels/users-profile.html
-T-1116220841     : nouvelles notifications
+// definitions/openplatform.js, public/forms/user.html
+T1gkjkgn                      : Nouvelles notifications
 
 // definitions/openplatform.js, schemas/users-login.js
-T-400555635      : erreur-ip-non-authorisé
+error-blocked-ip              : erreur-ip-bloqué
 
 // definitions/openplatform.js, schemas/apps-notifications.js
-T1461461147      : erreur-inaccessible
+error-accessible              : erreur-accessible
 
-// definitions/openplatform.js, schemas/account-status.js, schemas/account.js, schemas/apps-logs.js, schemas/apps-notifications.js, schemas/apps.js, schemas/users.js
-T218041407       : erreurs-permissions
+// definitions/openplatform.js, schemas/account-status.js, schemas/account.js, schemas/apps-logs.js, schemas/apps-mail.js, schemas/apps-notifications.js, schemas/apps-sms.js, schemas/apps.js, schemas/users-password.js, schemas/users.js
+error-permissions             : erreur-permissions
 
 // definitions/openplatform.js, schemas/account.js, schemas/users.js
-T-391490962      : erreur-Utilisateurs-404
+error-users-404               : erreur-utulisateurs-404
+
+// schemas/account-sessions.js
+T93gaqk                       : Identifiant de session invalide
+
+// schemas/account-status.js
+statusid                      : idstatus
 
 // schemas/account-totp.js
-T1590017756      : erreur-totp
+error-totp                    : erreur-totp
 
 // schemas/account.js
-T-1388496098     : erreur-hors_ligne
-T328381520       : erreur-pin
+error-offline                 : erreur-horsligne
+error-pin                     : erreur-pin
 
 // schemas/account.js, schemas/users.js
-T1781423954      : erreur-email-utilisateur
+error-users-email             : erreur-utilisateurs-email
 
-// schemas/apps-badges.js, schemas/apps-notifications.js, schemas/apps.js, schemas/users-reports.js
-T1852766594      : erreur-apps-404
-
-// schemas/apps-badges.js
-T69493           : FET
+// schemas/apps-badges.js, schemas/apps-logs.js, schemas/apps-notifications.js, schemas/apps.js, schemas/users-reports.js
+error-apps-404                : erreur-apps-404
 
 // schemas/apps-notifications.js
-T44071169        : erreur-notifications-mutées
+error-notifications-muted     : erreur-notifications-muted
+
+// schemas/apps-sms.js, schemas/sms.js
+T1m7x0y6                      : Token API de totaljs invalide
 
 // schemas/apps.js
-T-1679071278     : erreur-apps-existe
-T-744814291      : erreur-apps-hors_ligne
-T-1869975468     : erreur-url-invalide
+error-apps-exists             : erreur-apps-exists
+error-apps-meta               : erreur-apps-meta
+error-invalid-url             : erreur-url-invalide
+
+// schemas/ldap.js
+T1wlwh4                       : LDAP n&#39;est pas activé
 
 // schemas/settings.js
-T-134117701      : erreur-paramètre-smtp
+error-settings-smtp           : erreur-paramètres-smtp
 
 // schemas/users-groups.js, schemas/users.js
-T1783433781      : erreur-groupes-utlisateurs
+error-users-group             : erreur-utilisateurs-group
 
 // schemas/users-login.js, schemas/users-password.js
-T-626705737      : erreur-identifiants
-T138678055       : erreur-bloqué
-T693294736       : erreur-inactif
+error-credentials             : erreur-identifiants
+error-blocked                 : erreur-bloqué
+error-inactive                : erreur-inactif
 
 // schemas/users-members.js
-T1992443650      : erreur-limite-membres
+T7qlsr9                       : Vous avez dépassé un nombre maximum de membres
+Tdxxn1g                       : Vous ne pouvez pas ajouter votre adresse e-mail à votre liste de membres
+T1rgso9a                      : L&#39;e-mail est déjà enregistré dans votre liste de membres
 
 // schemas/users-password.js
-T-907041958      : Recuération de mot de passe
+T1k12zx6                      : Récupération de mot de passe
+error-password-dn             : erreur-mot-de-passe-dn
 
 // schemas/users.js
-T556539777       : Bienvenu(e) à{0}
-T750591488       : erreur-role-utilisateur
-T1787953951      : erreur-connexion-utilisateur
+T97cku9                       : Bienvenue à {0}
+error-users-role              : erreur-utilisateur-role
+error-users-current           : erreur-utilisateur-courrant
+error-users-login             : erreur-utilisateur-connexion
+
+// views/admin.html, views/login.html, views/main.html, views/portal.html, views/tabbed.html, public/forms/sessions.html
+T12tjh4                       : Fermer
+
+// views/admin.html, views/main.html
+Tiqodsz                       : Définir à aujourd&#39;hui
+Tl05x2h                       : Disponible
+T18mqh                        : Occupé(e)
+T1n23y65                      : Ne pas déranger
+T1ky4f9k                      : Je reviens tout de suite
+T173ycd7                      : Réunion
+Tmo6aud                       : Voyage d&#39;affaire
+T19l6mgo                      : En Vacances
+T1j87y                        : Malade
+T1mc6pmq                      : Hors travail
+T1wcnolm                      : Janvier
+T1vqhghu                      : Février
+T184ieb                       : Mars
+T11sk86                       : Avril
+T1nid                         : Mai
+T1dqie                        : Juin
+T1dqgo                        : Juillet
+Twm5mar                       : Août
+T1ylpbqp                      : Septembre
+Tpp6m8                        : Octobre
+Ts6ds2a                       : Novembre
+Taczpl1                       : Décembre
+T1552x9s                      : Dimanche
+T127ifcg                      : Lundi
+Tbd7fal                       : Mardi
+T1k6s6ra                      : Mercredi
+Tr2g5iy                       : Jeudi
+Tyxr9fj                       : Vendredi
+T114ux95                      : Samedi
+T1sogjqm                      : 'il y&#39;a ' + minutes + ' minutes'
+T1ozoljr                      : 'il y&#39;a ' + hours + ' ' + Thelpers.pluralize(hours, 'heures', 'heure', 'heures', 'heures')
+T15oy67r                      : 'il y&#39;a ' + days + ' ' + Thelpers.pluralize(days, 'jours', 'jour', 'jours', 'jours')
+T13dhn3z                      : 'il y&#39;a ' + months + ' ' + Thelpers.pluralize(months, 'mois', 'mois', 'mois', 'mois')
+T1fn7sxj                      : 'il y&#39;a ' + years + ' ' + Thelpers.pluralize(years, 'ans', 'an', 'ans', 'ans')
+
+// views/admin.html, views/main.html, views/windowed.html
+T14w27d4                      : Rechercher
 
 // views/admin.html, views/info.html, views/mails/welcome.html
-T1939328147      : FASO-School
+Tw2mj6b                       : Plateforme
 
 // views/admin.html
-T956107380       : Tableau de Bord
-T1968779819      : Espace marché
-T2404213         : Plus
-T-1224024769     : annee-mois-jours
-T-1701465987     : jours.mois.annee
-T-1362903299     : mois.jours.annee
-T-1622510450     : Permanent
-T-1677263211     : Contracteur
-T-2099895502     : Interne
-T148746311       : A temps partiel
-T670819326       : Client
-T119527          : Oui
-T3521            : Non
-T922337301       : 'il y\'a ' + seconds + ' ' + Thelpers.pluralize(seconds >> 0, 'secondes', 'seconde', 'secondes', 'secondes')
-T-880052139      : il y'a moins d'une minute
+Tft8p6c                       : Tableau de board
+Twk5s8b                       : Marketplace
+T1fj3p                        : Plus
+T1dz1j                        : LDAP
+T706k13                       : # pages,# page,# pages,# pages
+Tmm5bl3                       : # éléments,# élément,# éléments,# éléments
+T1escyf3                      : année-mois-jour
+T16w3qf1                      : jour.mois.année
+T1chob25                      : mois.jour.année
+T18740we                      : Permanent
+T17aihed                      : Prestataire
+T10aw08i                      : Stagiaire
+T2gk5dz                       : À temps partiel
+Tb3dzi6                       : Client(e)
+T2k87                         : Oui
+T2pt                          : non
+Tf94w0l                       : 'il y&#39;a ' + seconds + ' ' + Thelpers.pluralize(seconds, 'secondes', 'seconde', 'secondes', 'secondes')
+T1kh5hed                      : il y&#39;a moins d&#39;une minute
 
 // views/admin.html, public/parts/reports.html
-T-1535710817     : Rapports
+T19msfxb                      : Rapports
 
-// views/admin.html, public/parts/apps-grid.html, public/parts/users-grid.html
-T82025960        : Utilisateurs
+// views/admin.html, public/parts/logs.html
+T1evv3                        : Logs
 
-// views/admin.html, public/panels/users-profile.html, public/parts/users-grid.html, public/parts/users-groups.html, public/parts/users-roles.html
-T2141373940      : Groupes
+// views/admin.html, public/parts/users.html
+T1cu3mw                       : Utilisateurs
 
-// views/admin.html, public/parts/apps-grid.html, public/parts/users-groups.html
-T79142557        : Rôles
+// views/admin.html, public/forms/user.html, public/parts/groups.html, public/parts/roles.html, public/parts/users.html
+Tzex2pg                       : Groupes
 
-// views/admin.html, public/parts/users-groups.html, public/parts/users-roles.html
-T1101527363      : Applications
+// views/admin.html, public/parts/groups.html
+T1b4asd                       : Rôles
+
+// views/admin.html, public/parts/groups.html, public/parts/roles.html
+Ti7tjyb                       : Applications
+
+// views/admin.html, public/parts/oauth.html
+T7a5kdn                       : OAuth 2.0
 
 // views/admin.html, public/parts/settings.html
-T-1908600166     : Documentation
-T1499275331      : Paramètres
+T13gs4nu                      : Documentation
+Tosmo8z                       : Paramètres
 
-// views/admin.html, views/portal.html, views/tabbed.html, views/windowed.html, public/forms/status.html
-T1270065833      : Disponible
-T2082329         : Occupé(e)
-T-723919427      : Ne pas déranger
-T-851548088      : Je reviens
-T-1688280549     : En rencontre
-T1370860645      : Voyage d\'affaire
-T-1538408392     : En congé
-T2576734         : Malade
-T-767460542      : Hors travail
+// views/admin.html, views/intro.html, views/profile.html, public/parts/dashboard.html
+T17plo6                       : Claire
+T19hue                        : Sombre
 
-// views/admin.html, views/portal.html, views/tabbed.html, views/windowed.html
-T-162006966      : Janvier
-T-199248958      : Février
-T74113571        : Mars
-T63478374        : Avril
-T77125           : Mai
-T2320502         : Juin
-T2320440         : Juillet
-T1972131363      : Août
-T-25881423       : Septembre
-T43165376        : Octobre
-T1703773522      : Novembre
-T626483269       : Décembre
-T-1807319568     : Dimanche
-T-1984635600     : Lundi
-T687309357       : Mardi
-T-897468618      : Mercredi
-T1636699642      : Jeudi
-T2112549247      : Vendredi
-T-2049557543     : Samedi
-T-384049170      : 'Il y\'a ' + minutes + 'minutes'
-T-607062505      : ' il y\'a ' + hours + Thelpers.pluralize(hours, 'heures', 'heure', 'heures', 'heures')
-T-1773948937     : ' il y\'a ' + days + Thelpers.pluralize(days, 'jours', 'jours', 'jours', 'jours')
-T-1914128321     : ' il y\'a ' + months + Thelpers.pluralize(months, 'mois', 'mois', 'mois', 'mois')
-T-1172197065     : ' il y\'a ' + years + Thelpers.pluralize(years, 'année', 'année', 'années', 'années')
+// views/admin.html, views/profile.html
+T2atw                         : faible
+T1h7a4c5                      : moyen
+T1zbrm                        : fort
+T1dujmg3                      : fenêtres
+
+// views/admin.html, views/intro.html, views/profile.html, public/parts/dashboard.html, public/parts/settings.html
+T15awyjw                      : À onglets
+T13mq6bw                      : Portail
 
 // views/info.html
-T-1580423394     : ID Faso-School
-T-785298349      : Total.js
-T-515912555      : Node.js
-T1003994483      : Architecture
-T187480080       : Performance
-T-1314122681     : En ligne:
-T-275466972      : inutilisé:
-T-1754494968     : Disponiblité
-T1064901855      : minutes
-T-300450840      : Votre addresse IP
+T18w63ha                      : ID OpenPlatform
+T1m1kdw3                      : Total.js
+T1qhy9at                      : Node.js
+Tglr33n                       : Architecture
+T33mck0                       : Performance
+T1dapufb                      : en ligne:
+T1uh3uas                      : inutilisé:
+T160j4zs                      : Disponibilité
+Thm0jj3                       : minutes
+T1u28cmg                      : Votre adresse IP
 
-// views/info.html, public/parts/apps-grid.html
-T2016261304      : Version
+// views/info.html, public/forms/app.html, public/parts/apps.html
+Txcfh6g                       : Version
 
 // views/info.html, public/parts/dashboard.html
-T-1993889503     : Memoire RAM
-T-457675027      : req/min.
-T1469723837      : Sessions
+T12202zl                      : Mémoire
+T1rgmhnx                      : req/min.
+Tob1a65                       : Sessions
 
 // views/intro.html
-T2424595         : Suivant
-T2135970         : Fait
-T-1348550103     : Bienvenue <b>@{user.name}</b> à <b>@{'%name'}</b>
-T-664285186      : <b>Appearance</b>. Vous pouvez choisir une mode sombre ou clair. Mais ce n'est pas toutes les applications qui le supporte.
-T1828508118      : Choisissez la couleur de votre thème:
-T-1948443696     : Paramètre de Date/Heure et de langue
-T355914580       : Modes d'interfaces utilisateurs
-T1957341148      : Paramètres supplémentaires
-T633931740       : Activer les notifications par e-mail
-T2048375704      : Changer votre mot de passe
-T-639894891      : Ici vous pouvez changer  votre mot de passe
-T-187837156      : Vous ne voulez pas changer votre mot de passe?
-T-1679401523     : Sauter cette étape
-T1285893563      : Mot de passe encore
-T531997358       : Votre mot de passe va changer.
-T592876195       : Les mots de passes ne correspondent pas.
+T1fytv                        : Suivant
+T19s4i                        : Fait
+T1cq7y21                      : Bienvenue <b>@{user.name}</b> à <b>@{'%name'}</b>
+T1odzu8f                      : <b>Apparence</b>. Vous pouvez choisir le mode clair ou sombre. Toutes les applications ne prennent pas en charge l'apparence.
+Tu8n9w6                       : Choisissez une couleur de thème:
+T12t2574                      : Paramètres de date / heure et de langue
+T5vwhg4                       : Modes d'interface utilisateur
+Twdcm3g                       : Paramètres supplémentaires
+Txvjst4                       : changez votre mot de passe
+T1og4vx1                      : Ici, vous pouvez changer votre mot de passe.
+T1al0vwd                      : Vous ne souhaitez pas changer le mot de passe?
+T1798ngt                      : Passer cette étape
+Tl9l5tn                       : Mot de passe à nouveau
+T8sqjse                       : Le mot de passe sera changé.
+T9sze77                       : Les mots de passe ne sont pas identiques.
 
-// views/intro.html, views/profile.html, public/panels/users-profile.html
-T-1735149431     : Format de date
-T738664590       : Format de nombre
+// views/intro.html, views/profile.html, public/forms/user.html, public/parts/settings.html
+T16c1s3t                      : Format de date
+Tc7s58u                       : Format des nombres
 
 // views/intro.html, views/profile.html
-T2606829         : Heure
-T1972771131      : Nouveau mot de passe
+T1jvfx                        : Temps
+Twmjby3                       : Nouveau mot de passe
 
-// views/intro.html, views/profile.html, public/panels/apps-profile.html, public/panels/users-profile.html
-T101491376       : Langue de recherche
+// views/intro.html, views/profile.html, public/forms/app.html, public/forms/user.html
+T1ofb8w                       : Rechercher une langue
 
-// views/intro.html, views/profile.html, public/panels/users-profile.html, public/parts/users-grid.html
-T-1548945544     : Langue
+// views/intro.html, views/profile.html, public/forms/user.html, public/parts/settings.html, public/parts/users.html
+T19ewry0                      : Langue
 
-// views/intro.html, views/portal.html, views/profile.html, views/tabbed.html, views/windowed.html, public/panels/users-profile.html
-T1322041643      : Activer les notifications
-T1987584609      : Activer les sons
+// views/intro.html, views/main.html, views/profile.html, public/forms/user.html
+Tlv3xuz                       : Activer les notifications
+Twvcu3l                       : Activer les sons
 
-// views/intro.html, views/profile.html, public/parts/dashboard.html
-T73417974        : Claire
-T2122646         : Sombre
-T-1797520148     : A onglets
-T-1898613620     : Portail
+// views/intro.html, views/profile.html, public/forms/user.html
+Tfox2zr                       : Activer les notifications par e-mail
 
-// views/intro.html, public/parts/dashboard.html
-T-1050734417     : Fenetré
-
-// views/layout.html, views/portal.html, views/tabbed.html, views/windowed.html, public/forms/sessions.html
-T65203672        : Fermer
-
-// views/layout.html, views/portal.html, views/tabbed.html, views/windowed.html
-T1133198819      : Régler à Aujourd'hui
-
-// views/layout.html
-T-1822469688     : Rechercher
+// views/intro.html, public/parts/dashboard.html, public/parts/settings.html
+T1hnj63z                      : Fenêtré
 
 // views/locked.html
-T-989730243      : Déverrouillez votre écran
-T705014578       : Ou vous pouvez aussi
+T1inup8d                      : Déverrouillez votre écran
+Tbnqwqa                       : Ou vous pouvez
 
-// views/locked.html, views/portal.html, views/tabbed.html, views/windowed.html
-T374429323       : Déconnexion
+// views/locked.html, views/main.html, views/portal.html, views/tabbed.html, views/windowed.html
+T66xbij                       : Déconnexion
 
 // views/login.html
-T976417721       : Nous vous avons envoyé un e-mail contenant des instructions pour réinitialiser votre mot de passe.
-T673370732       : Réinitialiser le mot de passe
-T268884310       : Connectez-vous en tant qu'invité
-T2090188829      : Vous n'avez pas de compte?
-T-1007174243     : <b>Votre profil a activé l'autorisation à deux facteurs.</b> Veuillez saisir un code depuis votre application mobile:
-T-1679196512     : Confirmer
-T1273696091      : Retour au formulaire de connexion
-T-1054018735     : Nom de connexion ou adresse e-mail
+Tg5c0qh                       : Nous vous avons envoyé un e-mail contenant des instructions pour réinitialiser votre mot de passe.
+Tb4wo6k                       : Réinitialiser le mot de passe
+T4g34gm                       : Connectez-vous en tant qu&#39;invité
+Tykg00t                       : Vous n&#39;avez pas de compte?
+Trozuju                       : <b> Votre profil a activé l&#39;autorisation à deux facteurs. </b> Veuillez saisir un code à partir de votre application mobile:
+T179d1nk                      : Confirmer
+Tl2bq6z                       : Retour au formulaire de connexion
+T1hlkrwx                      : Nom de connexion ou adresse e-mail
 
 // views/login.html, views/mails/password.html, views/mails/welcome.html
-T187470082       : Nom de connexion
+T33m4ua                       : Identifiant
 
-// views/login.html, public/panels/users-profile.html, views/mails/welcome.html
-T1281629883      : Mot de passe
+// views/login.html, public/forms/user.html, public/parts/ldap.html, views/mails/welcome.html
+Tl71ry3                       : Mot de passe
 
-// views/login.html, public/panels/users-profile.html
-T73596745        : Connexion
+// views/login.html, public/forms/user.html
+T17tfm1                       : Connexion
 
-// views/portal.html, views/tabbed.html, views/windowed.html
-T1206509596      : Que cherchez-vous?
-T2524            : OK
-T2571410         : TEST
-T-1681432327     : Membres
-T466480241       : Mes Sessions
-T1207891169      : Verrouiller l'écran
-T9124107         : Muter les sons
-T784119617       : Mute les notifications
-T362274143       : Imprimer l'écran
-T-1544869189     : Rafraichir
-T-835726988      : Changelog
-T525179656       : Fermer l'application
-T1963757157      : Alert!
-T2145077757      : Vous avez {0}.
-T-879585745      : '# de nouvelles notifications', '# une nouvelle notification', '# de nouvelles notifications', '# de nouvelles notifications'
-T109270          : maintenant
-T-2061030829     : Afficher la fenêtre
+// views/main.html
+Tjyborg                       : Qu&#39;est-ce que tu cherches?
+T1y4                          : OK
+Twh64px                       : Alerte!
+Tzh4gl9                       : Vous avez {0}.
+T1khfh9r                      : '# notifications non lues', '# notification non lue', '# notifications non lues', '# notifications non lues'
+T5fk7f                        : Couper les sons
+Tcyuekh                       : Désactiver les notifications
+T4k19p1                       : Défavorable
+Tig3mpo                       : Préféré(e)
+T1a2kjx                       : Imprimer
+T19hc5a3                      : Rafraîchir
+T1l7jiwk                      : Journal des modifications
+T1c4m9                        : Aide
+T8oof7s                       : Fermer l&#39;application
+T2cba                         : Maintenant
+T1bmlup                       : AUJOURD&#39;HUI
+T19j6wbk                      : L&#39;aide n&#39;est pas définie pour cette application
+T1tin0as                      : Le journal des modifications n&#39;est pas défini pour cette application
 
-// views/portal.html, views/tabbed.html, views/windowed.html, public/forms/notifications.html, public/panels/apps-profile.html
-T2071315656      : Notifications
+// views/main.html, views/profile.html, public/forms/app.html, public/forms/assign.html, public/forms/group.html, public/forms/members.html, public/forms/oauth.html, public/forms/report-detail.html, public/forms/report.html, public/forms/user.html, public/parts/apps.html, public/parts/oauth.html, public/parts/settings.html
+Tx9d2fu                       : Annuler
+
+// views/main.html, public/forms/report.html, public/forms/screenshot.html
+T1n8zbe1                      : Signaler un bug
+
+// views/main.html, views/portal.html, views/tabbed.html, views/windowed.html
+Tjz5ash                       : Écran verrouillé
 
 // views/portal.html, views/profile.html, views/tabbed.html, views/windowed.html
-T1147708377      : Mon Compte
+Tizbdg9                       : Mon compte
 
-// views/portal.html, views/tabbed.html, views/windowed.html, public/forms/report.html, public/forms/screenshot.html
-T-712378263      : Rapporter un Problème
+// views/portal.html, views/tabbed.html, views/windowed.html
+T17814hl                      : Membres
+T7pqagh                       : Mes sessions
+T21a                          : SA
+Tcv29oy                       : Rafraîchir
 
-// views/profile.html, public/panels/users-profile.html
-T1205328159      : 300x300 pixels
-T-526187941      : Numéro de Téléphone
-T948846951       : Activer la notification par e-mail
+// views/portal.html
+T179lgs7                      : Console
+T1j442                        : TEST
+
+// views/portal.html, views/tabbed.html
+T1fblr                        : Menu
+T4w248t                       : Menu mobile
+
+// views/profile.html, public/forms/user.html
+Tjxmd5r                       : 300x300 pixels
+T1qbu0rf                      : Numéro de téléphone
+T1lh0u0v                      : Mode d&#39;interface utilisateur
+Tro1p43                       : Choisissez le mode clair ou sombre
 
 // views/profile.html
-T-171239160      : Surnom
-T-819802881      : Mode d'interface utilisateur
-T1672976739      : Choisir le mode clair ou le mode sombre
-T-1256066121     : Activer le mot de passe 2F usage-unique
-T244737259       : Changer de  mot de passe
-T-491990625      : Scanner QR pour le mot de passe 2F usage-unique
-T1813699791      : Avant tout,Vous devez télécharger une application android ou iOS,ensuite vous devez scanner ce code avec l'application. L'application va générer un  mot de passe usage-unique à chaque fois que vous voulez vous connecter.
-T-84770009       : Mot de passe usage-unique
-T-2014872347     : Votre clé privée:
-T491912610       : Entrer le code qui est sur l'application:
-T1875016085      : Générer
-T1589056333      : Le mot de passe sera crypté.
-T-1727016134     : Volume
-T-1271976580     : L'écran ne sera verrouillé que sur les ordinateurs de bureau après un temps d'inactivité défini.
-T-1711821564     : En quelques minutes
-T-622008455      : Temps d'inactivité
-T41102509        : Doit être défini en quelques minutes.
-T319850936       : Code PIN
-T1574879844      : 4 chiffres seulement.
-T107348          : faible
-T-1078030475     : moyen
-T3327826         : fort
-T-1280820637     : Fenêtres
-T-669403692      : Votre compte a été modifié avec succès.
-T270940796       : Désactivé
-T1634912862      : Votre code est valide. __N'oubliez pas de sauvegarder les modifications__.
+T1w75szs                      : Surnom
+T1e9a75j                      : Activer le mot de passe à usage unique 2FA
+T41pkh7                       : Changer de mot de passe
+T1qw6zkv                      : Scanner le code QR pour 2FA
+T1s6kdfb                      : Tout d&#39;abord, vous devez télécharger l&#39;application pour Android ou iOS, et vous devez y scanner ce code QR. L&#39;application générera un mot de passe différent avant de vous connecter à chaque fois.
+T1xmn50n                      : Mot de passe à usage unique
+T11picit                      : Votre clé privée:
+T84ve76                       : Entrez le code de l&#39;application ici:
+Tv0c3o5                       : Generer
+T1sksnqp                      : Mot de passe de réponse
+Tqa2zpp                       : Le mot de passe sera crypté.
+T16gw3sq                      : Volume
+Tsg6gtm                       : L&#39;écran ne sera verrouillé que sur les ordinateurs de bureau après une période d&#39;inactivité définie.
+T4hb798                       : désactivé
+T1oqs96h                      : Temps d&#39;inactivité
+Togywd                        : Doit être défini en minutes.
+T16pxs04                      : En quelques minutes
+T5afik8                       : PIN code
+Tq1n52c                       : Seulement 4 chiffres.
+T1nykes4                      : Votre compte a été mis à jour avec succès.
+Tr1duu6                       : Votre code est valide. __N&#39;oubliez pas d&#39;enregistrer les paramètres__.
 
-// views/profile.html, public/panels/users-profile.html, public/parts/users-grid.html
-T-1808614382     : Statut
+// views/profile.html, public/forms/user.html, public/parts/users.html
+T154b66q                      : Statut
 
-// views/profile.html, public/panels/apps-profile.html
-T1901549392      : Addresse e-mail
+// views/profile.html, public/forms/app.html
+Tvg4swg                       : Adresse e-mail
 
 // views/profile.html, public/parts/settings.html
-T-1549122223     : Image de fond:
-T1300814492      : Importer l'image
+T19eszm9                      : Image de fond:
+Tligyvw                       : Télécharger  une image
 
-// views/profile.html, public/panels/apps-profile.html, public/panels/users-group.html, public/panels/users-profile.html, public/parts/settings.html
-T2537853         : Sauvergarder
+// views/profile.html, public/forms/app.html, public/forms/group.html, public/forms/oauth.html, public/forms/user.html, public/parts/settings.html
+T1ie7x                        : SAUVEGARDER
 
-// views/profile.html, public/forms/report.html, public/forms/sessions.html, public/panels/apps-profile.html, public/panels/reports-detail.html, public/panels/users-assign.html, public/panels/users-group.html, public/panels/users-profile.html, public/parts/apps-grid.html, public/parts/reports.html, public/parts/settings.html, public/parts/users-grid.html, public/parts/users-groups.html
-T2011110042      : Annuler
+// node_modules/total4/503.html
+T1r4o0cr                      : S&#39;il vous plaît, attendez
+T14ratqj                      : Démarage en cours &hellip;
+T2p7d47                       : RAFRAÎCHISSANT
 
-// views/tabbed.html, views/windowed.html
-T368388776       : Super Administrateur
-T2638            : SA
-T80204866        : Démarrer
-T777768082       : Réinitialiser les fenêtres
-T1658424015      : Vous pouvez spécifier votre statut
+// node_modules/total4/index.js
+T13                           : '
+T1xsdwik                      : TEXTE À TRADUIRE
 
-// views/tabbed.html
-T1272628499      : Paramètres d'application
-T1174084638      : Menu d'application
+// node_modules/total4/internal.js
+Tay69xz                       : ', index
 
-// views/tabbed.html, public/forms/status.html
-T429445318       : Mon statut
+// node_modules/total4/test.html
+Tujlvns                       : Résultats de test
+T6wp898                       : FAILED (@{model.failed}x)
+T12wv59s                      : PASSED
+Tyoexct                       : Failed
+T13f1ocw                      : Passed
 
-// views/windowed.html
-T740167193       : Afficher le Bureau
-T1069893066      : Rechercher des applications
-T-830629437      : HORS LIGNE
-T258836562       : Réinitialiser la taille
-T1115434428      : Favoris
-T-119101550      : Minimiser la fenêtre
+// public/forms/app.html, public/forms/oauth.html, public/parts/settings.html
+Tttxmoz                       : Adresse URL
+
+// public/forms/app.html
+T1527o23                      : Adresse URL du fichier méta de l&#39;application
+Tvstnq4                       : Vous ne pouvez pas fournir cette application dans votre OpenPlatform car <b> le nom de domaine n&#39;est pas défini dans les domaines autorisés </b>.
+T5t2s0c                       : Méta-données téléchargées
+T19eat6q                      : Lisez moi
+T1y3d9ek                      : La description
+Tyrdm7f                       : Rôles pris en charge
+T1jma0u6                      : Origine autorisée
+Tnvmsfy                       : Services
+T14jtx5w                      : Obtention de l&#39;hôte
+T13pu4cq                      : Réglages principaux
+T1c4854                       : Titre
+T1peacu8                      : Titres localisés
+Tg6xxw8                       : Ajouter une localisation
+Th35djp                       : Numéro de série
+Trp2eug                       : Entrez un numéro de série si l&#39;auteur le demande
+T7foi3j                       : Token d&#39;origine
+T12kxbz8                      : Un jeton d&#39;origine est un élément de sécurité simple si vous ne souhaitez pas vérifier l&#39;origine d&#39;une application tierce. L&#39;application doit envoyer l&#39;en-tête <code> X-Origin </code> avec ce jeton.
+T2u34fv                       : Indice de position
+T1j4r3q                       : Un index de position par défaut. Un indice inférieur signifie une position plus élevée dans la liste des candidatures. Les utilisateurs peuvent modifier cette position manuellement.
+T54rgxh                       : Autorisations personnalisées
+T50hk6y                       : Lire des méta-informations sur la plateforme
+Tej3ntq                       : Autoriser l&#39;envoi de notifications
+T1u5kvt7                      : Autoriser l&#39;envoi de messages électroniques
+Tmz40t9                       : Autoriser l&#39;envoi de SMS
+T5jsqzg                       : Désactivé
+Tdeqyrg                       : Données de base
+Tts1fu7                       : Données de base avec les informations de contact
+Tzzxf1t                       : L&#39;application peut-elle lire un profil utilisateur?
+T1vbjm86                      : Tous les utilisateurs - données de base
+Tbfhe49                       : Tous les utilisateurs - données de base avec les informations de contact
+T11chhce                      : Utilisateurs qui utilisent cette application - données de base
+T1rhh3sx                      : Utilisateurs qui utilisent cette application - données de base avec les données de contact
+Ts7da1e                       : L&#39;application peut-elle lire les utilisateurs?
+T11sjnja                      : L&#39;application est bloquée
+T7hk0f6                       : Regénérer le token de service
+T1czxuzm                      : Paramètres d'application personnalisés
+Trjdd7v                       : Modifier application
+T8ibtvm                       : Ajouter une application
+T1tvgtjy                      : L&#39;application a été enregistrée avec succès
+T1daxiwb                      : OpenPlatform essaie de résoudre toutes les adresses IP à partir du nom de domaine
+T18yra0v                      : Tapez une adresse URL avec le protocole
+
+// public/forms/app.html, public/parts/settings.html
+Tugxn5o                       : ATTENTION
+T1ufwq7i                      : Générer token
+
+// public/forms/app.html, public/parts/groups.html, public/parts/roles.html, public/parts/users.html
+T1fvl7                        : Nom
+
+// public/forms/app.html, public/parts/apps.html
+Twmdne3                       : Auteur
+
+// public/forms/app.html, public/forms/oauth.html, public/forms/user.html, public/parts/settings.html
+Tkf93s9                       : Regénérer le token d'accès
+
+// public/forms/app.html, public/forms/user.html
+T1wdzhts                      : aaaa-MM-jj
+
+// public/forms/assign.html, public/parts/users.html
+T1ekbk05                      : Attribuer des groupes
+
+// public/forms/assign.html
+T9ifjye                       : Les groupes sélectionnés ci-dessous seront appliqués à tous les utilisateurs en fonction du filtre de grille utilisateur actuel.
+T9bit7                        : Insérer des groupes
+Tshmg9c                       : Supprimer des groupes
+T117eq6                       : APPLIQUER
+T1ci2mz6                      : Groups have been applied successfully
+
+// public/forms/group.html
+T1h7o4h8                      : Nom de groupe
+T9jstkh                       : Tapez un nom de groupe
+Tdlabe3                       : Vous pouvez saisir votre propre identifiant sans espaces blancs. L&#39;identificateur ne peut pas être modifié après sa création.
+T17lbkbr                      : Vous pouvez définir une note simple pour ce groupe
+T1v8kwlm                      : Applications autorisées
+T14p9jpl                      : Modifier groupe
+T3rra0r                       : Créer un groupe
+T1n9g37x                      : Le groupe a été enregistré avec succès
+
+// public/forms/group.html, public/forms/user.html, public/parts/users.html
+T9fxbb0                       : ID de groupe
+
+// public/forms/group.html, public/forms/user.html, public/parts/groups.html, public/parts/users.html
+T1g64y                        : Note
 
 // public/forms/members.html
-T-1425154270     : Permission Membres
-T1287273874      : Vous pouvez autoriser la lecture de certaines données dans les applications aux utilisateurs déclarés ci-dessous. Les utilisateurs auront accès selon les conditions d'application. Toutes les applications ne prennent pas en charge les membres.
-T-1291104633     : # membres,# membre, # membre, # membres
-T2046125004      : Limite <b></b>.
-T2112371968      : Entrer l'adresse et taper Entrer
-T2027868158      : Adresses e-mail
-T-61007063       : Le système associe automatiquement les utilisateurs enregistrés en fonction des adresses e-mail
-T1552966641      : Appliquer les changements
-T1882575933      : La liste de vos membres a été mis à  jours avec succès.
+T1bgm1wi                      : Autoriser les membres
+T16mwz5u                      : ATTENTION
+T1q7xtsu                      : Vous pouvez autoriser la lecture de certaines données dans les applications aux utilisateurs ci-dessous déclarés. Les utilisateurs auront accès selon les conditions d&#39;application. Toutes les applications ne prennent pas en charge les membres. Les membres sont jumelés en fonction des adresses e-mail.
+T1kh4kxk                      : Ajouter un membre
+T1dof79j                      : # membres,# membre, # membres, # membres
+T1k2zwde                      : Limite <b></b>
+T6vokqj                       : Non enregistré
+T1vfxego                      : Le système associe automatiquement les utilisateurs enregistrés en fonction des adresses e-mail
+
+// public/forms/members.html, public/parts/groups.html, public/parts/users.html
+T12n70ln                      : Voulez-vous vraiment supprimer "{0}"?
+
+// public/forms/members.html, public/parts/apps.html, public/parts/groups.html, public/parts/oauth.html, public/parts/reports.html, public/parts/users.html
+T14f871g                      : Supprimer
 
 // public/forms/notifications.html
-T79996705        : AUJOURD'HUI
+Ty97he0                       : Notifications
+T1jcwb83                      : Bon travail, vous n&#39;avez aucune notification.
+
+// public/forms/oauth.html
+T9jlmef                       : Nom d&#39;accès
+T1ciihbv                      : Permettre l&#39;accès
+T66yk9z                       : Saisissez l&#39;adresse URL de votre application
+T1h37v4g                      : Lire les informations de base
+T1rxviyr                      : Lire toutes les informations
+T4cuo1f                       : Modifier accès OAuth2
+T23vlu2                       : Ajouter un accès OAuth2
+T17ib7vr                      : OAuth 2.0 access has been saved successfully
+
+// public/forms/report-detail.html
+T1rfz6vx                      : Détails du rapport
+T1hg9934                      : Marquer comme résolu
+Tq2wyo6                       : Capture d&#39;écran
+
+// public/forms/report-detail.html, public/forms/sessions.html, public/forms/user.html, public/parts/apps.html, public/parts/groups.html, public/parts/logs.html, public/parts/oauth.html, public/parts/reports.html, public/parts/users.html
+T18jgseg                      : Date création
+
+// public/forms/report-detail.html, public/forms/user.html
+T1fnasze                      : dd-MM-yyyy HH : mm
+
+// public/forms/report-detail.html, public/forms/sessions.html, public/parts/logs.html
+T1eim7ln                      : Adresse IP
+
+// public/forms/report-detail.html, public/forms/report.html
+T19ynf42                      : Haute priorité
+
+// public/forms/report-detail.html, public/parts/logs.html, public/parts/reports.html
+T1kpnv                        : Utilisateur
+
+// public/forms/report-detail.html, public/parts/reports.html
+T1had92o                      : Application
+T151r95x                      : Résolu
 
 // public/forms/report.html, public/parts/reports.html
-T67156           : Disfunctionnements
-T475163461       : Demande de fonctionnalité
-T1470403766      : Amélioration
+T1ftg                         : Bug
+T7uweh1                       : Demande de fonctionnalité
+Tobfut2                       : Amélioration
 
 // public/forms/report.html
-T-192987258      : Résumé
-T1783867551      : Fournissez plus d'informations sur votre problème
-T-795106428      : La capture d'écran ne peut pas afficher la même vue que vous voyez et dans la plupart des cas, elle ne contient pas tous les éléments de l'interface utilisateur.
-T-86728283       : Faire une capture d'écran depuis l'application
-T-1838205928     : SOUMETTRE
-T-466519807      : Le rapport a été envoyé avec succès.
+T1vu7o1y                      : Résumé
+Tti2h0f                       : Fournissez plus d&#39;informations sur votre problème
+T1lvq5xg                      : La capture d&#39;écran ne peut pas afficher la même vue que vous voyez et dans la plupart des cas, elle ne contient pas tous les éléments de l&#39;interface utilisateur.
+T1xlh605                      : Faire une capture d&#39;écran depuis l&#39;application
+T8wznbh                       : Le rapport a été envoyé avec succès
 
-// public/forms/report.html, public/panels/reports-detail.html
-T-1515789758     : Haute priorité
+// public/forms/report.html, public/parts/ldap.html
+T14mox7c                      : SOUMETTRE
 
 // public/forms/screenshot.html
-T1535205896      : Où l'envoyer?
-T-1009561152     : Veuillez choisir une application dans la liste ci-dessous où envoyer la capture d'écran.
-T2541448         : ENVOYER
+Tpe0sg8                       : Où l&#39;envoyer?
+T1ic1nls                      : Veuillez choisir une application dans la liste ci-dessous où envoyer la capture d&#39;écran.
+T1igzs                        : ENVOYER
 
 // public/forms/sessions.html
-T-403888545      : Mes sessions ouvertes
-T-1664642692     : Êtes-vous sûr de vouloir annuler la session sélectionnée?
+T1scnbkv                      : Mes sessions ouvertes
+T17i0zgc                      : Voulez-vous vraiment annuler la session sélectionnée?
 
-// public/forms/sessions.html, public/parts/apps-grid.html, public/parts/reports.html, public/parts/users-grid.html, public/parts/users-groups.html
-T88775           : Oui
+// public/forms/sessions.html, public/forms/user.html, public/parts/groups.html, public/parts/oauth.html, public/parts/users.html
+Tnnin4r                       : Date modification
 
-// public/forms/status.html
-T-1806760418     : Saisissez un statut actuel
-T591916292       : APPLIQUER LE STATUT
+// public/forms/sessions.html, public/parts/users.html
+T1whz                         : Oui
 
-// public/panels/apps-profile.html, public/parts/settings.html
-T1803797027      : Adresse URL
-T1842428796      : Avertissement
+// public/forms/user.html
+T16gb8ct                      : Données internes
+T9vdydr                       : Mot de passe changé
+T5pyec5                       : Dernière notification
+T12cvb0z                      : Sessions ouvertes
+Tfn3psj                       : Applications en marche
+Tlussiy                       : Données personnelles
+Ttcdct7                       : Prénom
+Txl280m                       : Deuxième prénom
+T1th1585                      : Nom de famille
+T8bvpk                        : Date de naissance
+T1ey79s1                      : Date de naissance
+Tf5jum                        : Statut défini par l&#39;utilisateur
+T1o7r2wn                      : Début de l&#39;emploi
+T9gniuo                       : Fin d&#39;emploi
+T13xsfh                       : Vider
+Truk5j4                       : Recherchez ou saisissez un nouveau
+Twibidx                       : Emplacement
+Tst3cps                       : Choisissez un type de contrat
+T3rzx48                       : Type de contrat
+T1qspbg3                      : Choisissez un utilisateur
+T1b8an57                      : Sélectionnez <b> Superviseur </b>
+T1r85afi                      : Sélectionnez <b> Adjoint </b>
+T1dcyags                      : Référence personnalisée
+T1w8m5s3                      : La référence personnalisée <b> La référence personnalisée </b> peut contenir un identifiant externe de l&#39;utilisateur.
+T9p73nm                       : L&#39;<b> ID de groupe </b> convient au jumelage d&#39;utilisateurs de la même société ou du même groupe.
+T15i9uhn                      : Note personnalisée interne pour l&#39;utilisateur.
+T1e3g46p                      : Unité d&#39;organisation
+T1naduvd                      : Les unités doivent être séparées par la barre oblique <code> / </code>
+Tbhp18n                       : Nom distingué
+T13klkoj                      : Les noms doivent être séparés par la virgule <code>, </code>
+Tqf6i71                       : Comportement
+Tfffm17                       : L&#39;utilisateur est bloqué
+T1ri4hyk                      : L&#39;utilisateur est inactif
+T1jivyyt                      : L&#39;utilisateur est <b> administrateur </b>
+T18onzdy                      : Envoyer un e-mail de bienvenue
+T153zr95                      : Enable phone notifications
+T1o8wwkg                      : Reconstruire le token de vérification
+Twd1kgs                       : Crédits
+Tarh1l7                       : Attribuer un e-mail
+T1fphj40                      : Tapez un nouveau mot de passe
+T1qdfqh2                      : Créer un mot de passe
+Tkqpj2f                       : Autorisation 2FA activée
+Tob9pl5                       : Applications explicitement autorisées
+Touwbu3                       : Référentiel dynamique
+Tk5ybwu                       : Format invalide.
+T8fhahp                       : Doit être défini au format JSON.
+T1bijup                       : Modifier utilisateur
+Tigj0b3                       : Créer un utilisateur
+Tdno78s                       : __Le référentiel dynamique contient un format non valide! __ Êtes-vous vraiment sûr de vouloir enregistrer le profil utilisateur?
+T1j2ql                        : Sauvegarder
+T7z8qu1                       : L&#39;utilisateur a été enregistré avec succès
+T1flucvk                      : Rechercher des utilisateurs
 
-// public/panels/apps-profile.html
-T-1812137077     : Adresse URL du fichier méta de l'application
-T-1255759987     : YVous ne pouvez pas fournir cette application dans votre Faso-school car <b> le nom de domaine n'est pas défini dans les domaines autorisés </b>.
-T351169356       : Méta-données téléchargées
-T-1549970366     : Lis moi
-T-56677412       : Description
-T2101834923      : Rôles pris en charge
-T-931908418      : Origine autorisée
-T-1493394332     : Permissions
-T-1455554384     : Exigences
-T82              : R
-T989105139       : Exigences utilisées
-T67              : C
-T-1514252710     : Vérification côté serveur
-T-315894961      : Optimisé pour les appareils mobiles
-T874694915       : Optimisé pour l'utilisateur invité
-T878498923       : Peut lire les méta-informations
-T-1153888210     : Peut lire le profil utilisateur
-T-221014674      : Peut lire les utilisateurs
-T-1808843188     : Peut lire des applications
-T-1893390710     : Réglages principaux
-T-582532736      : Titres localisés
-T979120088       : Add localization
-T1033214677      : Numéro de série
-T1674689704      : Entrez un numéro de série si l'auteur le demande
-T171466555       : Indice de position
-T1114654095      : Un indice inférieur signifie une position plus élevée dans la liste des applications
-T-2009772570     : L'application est bloquée
-T452750370       : Reconstruire le jeton de service
-T-638129598      : Actualiser les autorisations en fonction du fichier méta
-T1960914378      : L'application peut actualiser ses autorisations automatiquement
-T-1329640266     : Vous devez savoir qu'autoriser automatiquement les autorisations d'actualisation <b> est une étape très dangereuse </b>.
-T-1332224478     : Paramètres d'application personnalisés
-T-264919974      : Modifier l'application
-T-1990199247     : Ajouter une application
-T-311812962      : L'application a été enregistrée avec succès
+// public/forms/user.html, public/parts/groups.html, public/parts/reports.html, public/parts/users.html
+T1sr                          : ID
 
-// public/panels/apps-profile.html, public/parts/users-grid.html, public/parts/users-groups.html, public/parts/users-locations.html, public/parts/users-roles.html
-T2420395         : Nom
+// public/forms/user.html, public/parts/dashboard.html, public/parts/users.html
+T11qceci                      : Date enregistrement
+T1iagm6r                      : en ligne
 
-// public/panels/apps-profile.html, public/parts/apps-grid.html
-T1972506027      : Auteur
-T80818744        : Titre
+// public/forms/user.html, public/parts/users.html
+T1f8kt                        : Masculin
+Tyqofos                       : Féminin
+T28kp72                       : Surnom
+T13xh18                       : E-mail
+T178zgwt                      : Entreprise
+Tdfplqh                       : Fonction
 
-// public/panels/apps-profile.html, public/panels/users-profile.html, public/parts/settings.html
-T1234942569      : Réconstruire le jeton de service
+// public/forms/user.html, public/parts/settings.html
+T13j09kg                      : Horloge de 24 heures
+T143zj1t                      : Horloge de 12 heures
 
-// public/panels/apps-profile.html, public/panels/users-profile.html
-T-159776256      : yyyy-MM-dd
+// public/forms/user.html, public/parts/dashboard.html, public/parts/settings.html
+T1qokrk4                      : Apparence
 
-// public/panels/reports-detail.html
-T-458762083      : Details du rapport
-T-1240389125     : Addresse IP
-T-1062954432     : Marquer comme résolu
-T1577017734      : Capture d'écran
+// public/parts/apps.html, public/parts/dashboard.html
+T17vyq                        : Apps
 
-// public/panels/reports-detail.html, public/panels/users-profile.html, public/parts/apps-grid.html, public/parts/reports.html, public/parts/users-grid.html, public/parts/users-groups.html
-T-1601759544     : Crée
+// public/parts/apps.html
+T1eo1                         : Ajouter
+T1qpwgk9                      : Vous n&#39;avez défini aucune application tierce
+T19f3x7n                      : hors ligne
+Tbupqhp                       : Token d&#39;accès
+T1dlw2az                      : Application tierce
+Thzt98r                       : Designer
+Tcft7nw                       : Voulez-vous vraiment supprimer l&#39;application sélectionnée?
 
-// public/panels/reports-detail.html, public/panels/users-profile.html
-T-1172057030     : yyyy-MM-dd HH:mm
+// public/parts/apps.html, public/parts/oauth.html
+T1cspnq8                      : Afficher le token d&#39;accès
 
-// public/panels/reports-detail.html, public/parts/reports.html
-T2645995         : Utilisateur
-T-1072845520     : Application
-T-1812902875     : Résolu
-
-// public/panels/users-assign.html
-T-1237527035     : Attribuer des groupes
-T575154374       : Les groupes sélectionnés ci-dessous seront appliqués à tous les utilisateurs en fonction du filtre de grille utilisateur actuel.
-T15654139        : Insérer des groupes
-T1722653904      : Supprimer des groupes
-T62491470        : APPLIQUER
-T-1362234670     : Les groupes ont été appliqués avec succès
-
-// public/panels/users-group.html
-T-1077377108     : Nom du groupe
-T577452977       : Taper le nom du groupe
-T821813547       : Vous pouvez saisir votre propre identifiant sans espaces blancs. L'identificateur ne peut pas être modifié après sa création.
-T-1659110233     : Vous pouvez définir une note simple pour ce groupe
-T-229321206      : Allowed apps
-T-1833884407     : Modifier le Groupe
-T228020859       : Créer un groupe
-T-711595699      : Le Groupe a été enregistré avec succès
-
-// public/panels/users-group.html, public/panels/users-profile.html, public/parts/users-grid.html
-T570944124       : ID du Groupe
-
-// public/panels/users-group.html, public/panels/users-profile.html, public/parts/users-grid.html, public/parts/users-groups.html
-T2434066         : Note
-
-// public/panels/users-profile.html
-T-1727990003     : Donnée interne
-T596914767       : Mot de passe modifié
-T345926165       : Dernière notification
-T-1975636589     : Sessions ouvertes
-T945797203       : Applications ouvertes
-T1321521514      : Donnée personnelles
-T1774297627      : Prenom
-T2030759446      : Prenom africain
-T-336058955      : Nom de famille
-T13991240        : Date de Naissance
-T-1214212287     : Statut utilisateur personnalisé
-T25453246        : Statut défini par l'utilisateur
-T-653975945      : Début de l'emploi
-T572166960       : Fin de l'emploi
-T-1288100420     : Donnée de l'employé
-T1683915520      : Rechercher ou taper un nouveau
-T1965687765      : Localisation
-T1741918240      : Choisir le type de contrat
-T228424040       : Type de contrat
-T-497853901      : Choisir un utilisateur
-T-1439123541     : Selectionner <b>un Superviseur</b>
-T-471914482      : Selectionner <b>un Adjoint</b>
-T-1310369412     : Référence personnalisée
-T-168796477      :La <b> référence personnalisée </b> peut contenir un identifiant externe de l'utilisateur.
-T586517314       : L '<b> ID de groupe </b> convient au jumelage d'utilisateurs de la même société ou du même groupe.
-T-1785161573     : Note personnalisée interne pour l'utilisateur.
-T-1904861328     : Horloge de 24 heures
-T-1869623759     : Horloge de 12 heures
-T1597618333      : Comportement
-T932915275       : L'utilisateur est bloqué
-T-455155220      : L'utilisateur est inactif
-T-937602875      : L'utilisateur est <b> administrateur </b>
-T-1593025818     : Envoyer un e-mail de bienvenue
-T-1809146951     : Activer les notifications téléphoniques
-T-652024608      : Reconstruire le jeton de vérification
-T-1138676108     : Mode fenêtré
-T2092193879      : Mode à onglets
-T1364176055      : Mode portail
-T1106485063      : Mode bureau
-T1988673055      : Thème clair
-T-1390451521     : Thème sombre
-T80774569        : Thème
-T1956825820      : Identifiants
-T650806603       : Attribuer un email
-T-1168384000     : Taper un nouveau mot de passe
-T-523495226      : Générer un mot de passe
-T1254184647      : Activer l'autorisation 2FA
-T1470117065      : Apps explicitement autorisées
-T1503085035      : Référentiel dynamique
-T1219323342      : Format invalide.
-T509730397       : Doit être défini au format JSON.
-T79807489        : Modifier l'utilisateur
-T1116151887      : Créer un utilisateur
-T825820588       : __Le référentiel dynamique contient un format non valide! __ Êtes-vous vraiment sûr de vouloir enregistrer le profil utilisateur?
-T2569629         : Sauvegarder
-T482457817       : L'utilisateur a été enregistré avec succès
-T-1174504016     : Rechercher des utilisateurs
-
-// public/panels/users-profile.html, public/parts/apps-grid.html, public/parts/reports.html, public/parts/users-grid.html, public/parts/users-groups.html, public/parts/users-locations.html
-T2331            : ID
-
-// public/panels/users-profile.html, public/parts/dashboard.html, public/parts/users-grid.html
-T-2013470302     : Enregistré
-
-// public/panels/users-profile.html, public/parts/apps-grid.html, public/parts/dashboard.html, public/parts/users-grid.html
-T-1012222381     : en ligne
-
-// public/panels/users-profile.html, public/parts/apps-grid.html, public/parts/users-grid.html, public/parts/users-groups.html
-T1430223003      : Actualisé
-
-// public/panels/users-profile.html, public/parts/users-grid.html
-T2390573         : Masculin
-T2100660076      : Feminin
-T135335054       : Surnom
-T-1679829923     : Etablissement
-
-// public/panels/users-profile.html, public/parts/apps-grid.html, public/parts/users-grid.html
-T67066748        : Email
-
-// public/panels/users-profile.html, public/parts/apps-grid.html
-T812449097       : Position
-
-// public/panels/users-profile.html, public/parts/dashboard.html, public/parts/settings.html
-T-504784764      : Affichage
-
-// public/parts/apps-grid.html, public/parts/dashboard.html
-T2047634         : Apps
-T-1984987966     : Mobile
-
-// public/parts/apps-grid.html, public/parts/users-grid.html, public/parts/users-groups.html, public/parts/users-locations.html
-T78208           : Nouveau
-T2155050         : Modifier
-
-// public/parts/apps-grid.html, public/parts/reports.html, public/parts/users-grid.html, public/parts/users-groups.html, public/parts/users-locations.html
-T415178366       : Options
-T-1850743644     : Supprimer
-
-// public/parts/apps-grid.html, public/parts/users-grid.html
-T-1928355213     : En ligne
-T2529            : Non
-T1643215308      : Bloqué
-T-21437972       : bloqué
-T-1079530081     : En cours...
-
-// public/parts/apps-grid.html
-T35762567        : Espace de travail
-T1355227529      : Profil
-T2394661         : Meta
-T1443853438      : Services
-T1439397018      : Rafraichi
-T-1354287984     : Voulez-vous vraiment supprimer les applications sélectionnées?
+// public/parts/apps.html, public/parts/groups.html, public/parts/oauth.html, public/parts/users.html
+T1a6ui                        : Modifier
 
 // public/parts/dashboard.html
-T-1784055402     : Total:
-T1649536775      : # Utilisateurs, # utilisateur, # utilisateurs, # utilisateurs
-T-476457015      : Max. en ligne
-T-1409072630     : utilisateurs enregistrés
-T782417649       : Max. utilisateurs en ligne
-T-328612892      : Requêtes
-T67881559        : Fichiers
-T-1070512963     : Appareils
-T74517264        : Modes
-T-1822699756     : Derniers utilisateurs enregistrés
-T448831083       : Navigateurs
-T-1073207300     : Bureau
-T1164829567      : Appareils mobiles
-T1726516877      : Mode clair
-T93492205        : Mode sombre
-T-923107144      : Les apps les plus utilisés
-T-1572708975     : Les navigateurs les plus utilisés
+T15ixk0m                      : Total:
+T1ghsykn                      : visiteurs, visiteur, visiteurs, visiteurs
+T1r5fxe1                      : Max. en ligne
+Tra3apz                       : # utilisateurs, # utilisateur, # utilisateurs, # utilisateurs
+Te2d0oa                       : Embarqué
+Tnpsjw5                       : Version OpenPlatform
+T1bq6qkq                      : Utilisateurs connectés
+Tcxtxbl                       : Max. utilisateurs en ligne
+T1tlgqn8                      : Requêtes
+T14exqv                       : Fichiers
+T1hbr8vx                      : Appareils
+T18d5w0                       : Modes
+T14vx9uc                      : Derniers utilisateurs connectés
+T7f80a3                       : Navigateurs
+T1ha5hx8                      : Bureau
+Tj9ic8v                       : Appareils mobiles
+Tsjx8y5                       : Mode claire
+T1jnv1p                       : Mode sombre
+T1jriny0                      : Les applications les plus utilisées
+T190rfyp                      : Les navigateurs les plus utilisés
+T127avgi                      : Mobile
+
+// public/parts/groups.html, public/parts/oauth.html, public/parts/users.html
+T1ocg                         : Nouveau
+
+// public/parts/groups.html
+Tgdx3fy                       : Voulez-vous vraiment supprimer les groupes sélectionnés?
+
+// public/parts/ldap.html
+T1pd6yd8                      : Paramètres LDAP
+T1sqgg                        : beta
+T16f8x9m                      : <b> LDAP </b> est actif
+T1ch5n34                      : Adresse URI
+Tpr1ha4                       : Doit être au format <code> ldap: // nomhôte: port </code>
+T1baqoku                      : DN / Distinguished name
+T1rtt7td                      : Exemple: <code> ou = Utilisateur, dc = example, dc = com </code>
+T1hab2jm                      : Compte de service
+T9zu9j4                       : Intervalle d&#39;importation
+Tbu7ldh                       : Mapping supplémentaire
+T13yiahz                      : Les paramètres LDAP ont été enregistrés
+
+// public/parts/ldap.html, public/parts/logs.html
+T11si7c0                      : Nom d&#39;utilisateur
+
+// public/parts/logs.html
+T12tbn1                       : Nettoyer
+Tp3gepc                       : Identifiant d&#39;utilisateur
+Txsr3hy                       : Appareil
+T19hvu                        : Données
+T1sg1ozx                      : Détail du journal
+Tbki3pm                       : Are you sure you want to clear all logs?
+
+// public/parts/logs.html, public/parts/reports.html
+T1k7dm                        : Type
+T17bmnl3                      : Message
+
+// public/parts/oauth.html
+T1v9mptn                      : Vous n&#39;avez défini aucun token d&#39;accès OAuth
+T1kpnh                        : Utilisé
+T7a6s0m                       : OAuth key
+T17h8lll                      : OAuth secret
+Tj2lwhs                       : Montrez les secrets
+T1sezjo5                      : Voulez-vous vraiment supprimer l&#39;accès OAuth sélectionné?
 
 // public/parts/reports.html
-T2043610225      : Détails
-T2622298         : Type
-T3202466         : haut
-T-1675388953     : Message
-T2249154         : Haut
-T-282213635      : Voulez-vous vraiment supprimer les rapports sélectionnés?
+T1wn1e                        : haut
+T1c7gi                        : Haut
+Txspnqp                       : Detail
+Th2e4wq                       : Êtes-vous sûr de vouloir sélectionner le rapport?
+T1ud38jh                      : Voulez-vous vraiment supprimer les rapports sélectionnés?
+
+// public/parts/roles.html
+T1b1xagb                      : Rôles (lecture seule)
 
 // public/parts/settings.html
-T-728184339      : La modification de l'adresse URL entraînera la perte de données dans les applications tierces. L'adresse URL est un identifiant unique d'OpenPlatform. Chaque application tierce crée un identifiant unique de Faso-School à partir de l'adresse URL et du jeton de vérification.
-T1632674766      : Nom de la plateforme
-T-1652705301     : email d'assitance
-T-460644396      : Jeton de verification
-T-1969696428     : Le jeton de vérification est un outil de sécurité simple contre le piratage des données d'applications tierces. Si vous le modifiez, vous risquez de perdre des données dans des applications tierces.
-T-277478482      : Générer un jeton
-T-881407418      : Expiration du cookie / session
-T1744157117      : Saisissez une heure d'expiration sous la forme: <code> 2 jours </code> ou <code> 3 minutes </code>
-T-1220517031     : URL de création d'un compte
-T-257988406      : Active un lien pour créer un compte sur la page de connexion
-T-1771524360     : Ceci est l '<b> environnement de test </b>
-T1141847203      : Autoriser <b> Utilisateur invité </b>
-T2113445722      : Activer le mode bureau fluide
-T-1791195842     : Autoriser les notifications par e-mail
-T1300608331      : Afficher l'horloge
-T1646319357      : Autoriser les statuts utilisateur personnalisés
-T-1234385757     : Permettre de changer d'arrière-plan
-T1737219579      : Users can change their profile
-T241047562       : Autoriser les utilisateurs à ajouter leurs propres membres
-T-1212090551     :Permettre de changer les thèmes de couleur
-T2119261446      : Permettre de changer d'apparence
-T625215888       : Autoriser à changer de pseudo/surnom
-T1669090121      : Permettre de changer de mode de bureau
-T-1891896943     : Aucune application
-T-1949043247     : Application par défaut
-T162150604       : Lien vers l'espace marché
-T-170482132      : Lien vers la page d'accueil
-T1880777195      : Nombre max de membres autorisés
-T1217475575      : désactive la limite
-T-1258785107     : Paramètres SMTP
-T1138295885      : Serveur SMTP
-T-1234294555     : Adresse e-mail de l'expéditeur
-T-1692166408     : Rechercher une Application
-T423929319       : Les paramètres SMTP doivent être au <b> format JSON </b> valide, selon la documentation de Total.js.
-T393481557       : Le serveur SMTP est <b> configuré correctement </b>.
-T508823366       : Vérifiez le serveur SMTP
-T2023598873      : Les paramètres ont été enregistrés avec succès
+T1mzkjcd                      : La modification de l&#39;adresse URL entraînera la perte de données dans les applications tierces. L&#39;adresse URL est un identifiant unique d&#39;OpenPlatform. Chaque application tierce crée un identifiant unique d&#39;OpenPlatform à partir de l&#39;adresse URL et du token de vérification.
+Tr01vwu                       : Nom OpenPlatform
+T17p4uej                      : E-mail d&#39;assistance
+T1reuuhg                      : Token de vérification
+T53gnie                       : Token de vérification est un élément de sécurité simple contre le piratage des données d&#39;applications tierces. Si vous le modifiez, vous risquez de perdre des données dans des applications tierces.
+T1kgcfnq                      : Expiration Cookie / Session
+Tsufc8t                       : Saisissez une heure d&#39;expiration sous la forme: <code> 2 jours </code> ou <code> 3 minutes </code>
+T1eug509                      : URL de création d&#39;un compte
+T1urigui                      : Active un lien pour créer un compte sur la page de connexion
+Tivtqxv                       : Autoriser <b> Utilisateur invité </b>
+T1tl7y9a                      : Activer OAuth 2.0
+Tkexee5                       : Autoriser les applications à accéder via un token d&#39;accès
+Ttapmf1                       : Autoriser à changer de mot de passe
+T15eoif2                      : Autoriser les notifications par e-mail
+Tlicjt7                       : Afficher l&#39;horloge
+Tr86c59                       : Autoriser les statuts utilisateur personnalisés
+T1em6vtv                      : Permettre de changer d&#39;image d&#39;arrière-plan
+T3zihhm                       : Autoriser les utilisateurs à ajouter leurs propres membres
+Tsqan7f                       : Les utilisateurs peuvent modifier leur profil
+T1ezgqx5                      : Permettre de changer les thèmes de couleur
+Tz1r4li                       : Permettre de changer d&#39;apparence
+Tac8jo0                       : Permettre de changer de pseudo
+Trlqe6h                       : Permettre de changer de mode de bureau
+T13qq4y9                      : Aucune application
+T12spakx                      : Application par défaut
+T2ojg7g                       : Lien vers la place de marché
+T1w7m14c                      : Lien vers la page d&#39;accueil
+Tv3rkyz                       : Max. membres autorisés
+Tk4uq5z                       : désactive la limite
+Ty7jyiy                       : Time format
+Tiartc7                       : Mode de bureau
+Tnkgs8u                       : Total API
+Tn6j1kl                       : Avec la <b> clé API Total </b>, l&#39;OpenPlatform peut envoyer des SMS ou des e-mails. Vous pouvez obtenir la clé API Total sur
+Ta51oal                       : Clé API total
+T1sanw53                      : L&#39;API total est <b> valide </b>. balance:
+Tvdtddu                       : L&#39;API totale est <b> invalide </b>
+T1ogq01e                      : Vérifier la clé API
+T1e7nx65                      : Paramètres SMTP
+Titpmq5                       : SMTP server
+T1em8u79                      : Adresse e-mail de l&#39;expéditeur
+T171n20o                      : Application de recherche
+Tkuj21z                       : Les paramètres SMTP doivent être au <b> format JSON </b> valide, selon la documentation de Total.js
+Tijgge1                       : Le serveur SMTP est <b> configuré correctement </b>
+T8exume                       : Vérifier le serveur SMTP
+Teqxgzm                       : Connectez les utilisateurs d&#39;une autre OpenPlatform
+T1nbhhx2                      : L&#39;accès à cette OpenPlatform sera entièrement sous le contrôle de l&#39;OpenPlatform défini ci-dessous, <b> le formulaire de connexion sera désactivé </b>. Les utilisateurs ne pourront pas modifier leurs propres informations d&#39;identification dans cette OpenPlatform.
+T111byy0                      : Clé OAuth 2
+T1eejjyf                      : Secret OAuth 2
+T2jq3w4                       : Supprimer les paramètres OAuth 2.0
+Txgsqvt                       : Les paramètres ont été enregistrés avec succès
 
-// public/parts/users-grid.html
-T1970629903      : Attribuer
-T63116079        : Admin
-T2129321697      : Genre
-T1078812459      : Referenciel
-T-502303438      : Contrat
-T77090126        : Téléphone
-T1965449603      : Localité
-T65759           : Age
-T89309323        : Inactif
-T2043510635      : Adjoint
-T296234888       : Superviseur
-T729115845       : {0} ans
-T1541772052      : Voulez-vous vraiment supprimer les utilisateurs sélectionnés?
-
-// public/parts/users-groups.html
-T990837934       : Voulez-vous vraiment supprimer les groupes sélectionnés
-// public/parts/users-locations.html
-T806778686       : Localisations
-
-// public/parts/users-roles.html
-T-1449824213     : Rôles (lecture-seul)
+// public/parts/users.html
+T6v6poe                       : Options
+T1350pkj                      : En ligne
+T1y9                          : Non
+T19wb9u                       : Photo
+T11ksof                       : Admin
+Tz7qr4x                       : Genre
+T1yockbw                      : bloqué
+Thuap0r                       : Référence
+T1oq                          : DN
+T1ye                          : OU
+T1qq1y5u                      : Contract
+T19wb4e                       : Téléphone
+Twi6emb                       : Localité
+T1eqn                         : Âge
+Tr6bt1o                       : Bloqué
+T1h67ij                       : Inactif
+Txsniwb                       : Adjoint
+T4wdcaw                       : Superviseur
+T1h6dz8f                      : En cours
+Tc23hdx                       : {0} ans
+T1n37inz                      : Synchroniser les utilisateurs LDAP
+Tyxpy9q                       : Voulez-vous vraiment synchroniser les utilisateurs à partir de LDAP?
+T1rgn0a8                      : Synchroniser
+Tphxixg                       : Voulez-vous vraiment supprimer les utilisateurs sélectionnés?
 
 // views/mails/notifications.html
-T-1350661346     : Vous avez <b> non lu & # 128276; notifications </b> dans @ {'% name'}. Vous devez vous connecter à @ {'% name'} pour pouvoir lire toutes les notifications.
-T187529478       : Page de connexion
+T1axkz2o                      : Vous avez des <b> notifications non lues </b> dans @{'%name'}. Vous devez vous connecter à @{'%name'} et lire toutes les notifications.
+T84q297                       : Dernières notifications:
 
 // views/mails/password.html
-T2125970         : Cher
-T-48703600       : Vous avez utilisé la récupération de mot de passe. Veuillez cliquer sur le bouton ci-dessous pour réinitialiser votre mot de passe. Si vous avez reçu cet e-mail par erreur, vous pouvez l'ignorer.
+Tc7e7ws                       : réinitialiser le mot de passe
+Tz9wfon                       : Vous avez utilisé la récupération de mot de passe. Veuillez cliquer sur le bouton ci-dessous pour réinitialiser votre mot de passe. Si vous avez reçu cet e-mail par erreur, vous risquez de ne pas en tenir compte.
 
 // views/mails/password.html, views/mails/welcome.html
-T-535726761      : Cliquer sur le lien ci dessous:
+T1q65kk7                      : Cliquez sur le lien ci-dessous:
 
 // views/mails/welcome.html
-T990642187       : Cher utilisateur, bienvenue sur <b> @ {'% name'} </b>. Nous sommes ravis que vous ayez rejoint la plateforme. Veuillez vous connecter à votre compte via le lien ci-dessous.
+T1pvjyum                      : Cher utilisateur, bienvenue sur <b> @{'%name'} </b>. Nous sommes ravis que vous ayez rejoint la plateforme. Veuillez vous connecter à votre compte via le lien ci-dessous.

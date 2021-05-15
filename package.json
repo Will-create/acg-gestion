@@ -4,9 +4,9 @@
 	"version": "4.9.0",
 	"main": "index.js",
 	"dependencies": {
-		"total4": "latest",
 		"dbms": "latest",
-		"pg": "latest"
+		"pg": "latest",
+		"total4": "latest"
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
@@ -14,6 +14,6 @@
 	"keywords": [
 		"platform"
 	],
-	"author":"Peter Širka",
+	"author": "Peter Širka",
 	"license": "MIT"
 }

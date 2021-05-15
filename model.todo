@@ -1,0 +1,52 @@
+Entités :
+	 -Opérateurs
+	 	-id (UID)
+		-nom  (string 15)
+		-description (string 50)
+		-actif (boolean default true)
+		-applications [Object]
+		-dtcreate (Date)
+	 -Applications
+	 	-id (UID)
+		-nom  (string 15)
+		-description (string 50)
+		-opérateurs [Object]
+		-rubriques [Object]
+		-actif (boolean default true)
+		-dtcreate (Date)
+	 -Rubriques
+	 	-id (UID)
+		-nom  (string 15)
+		-description œ&	 (string 50)
+		_applications [Object]
+	    -contenus [Object]
+		-actif (boolean default true)
+		-dtcreate (Date)
+	 -Contenus
+	 	-id (UID)
+		-corps (string 180)
+		-invalide (boolean default false)
+		-envoye (boolean)
+		-envoye_user [Object]
+		-invalide_user [Object]
+		-commentaires []
+		-rubriques [Object]
+		-dtcreate (Date)
+	 -Timings
+	 	-id (UID)
+		-interval (string)
+		-dtcreate (Date)
+	 -Templates
+	 	-id (UID)
+	 	-corps (string)
+		-dtcreate (Date)
+	 -Commentaires
+	 	-id (UID)
+		-user [Object]
+		-corps (String)
+		-dtcreate (Date)
+	 -Ressources
+	 	-id (UID)
+	 	-url (string)
+		-dtcreate (Date)
+	 -Chemins

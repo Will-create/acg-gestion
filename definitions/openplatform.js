@@ -604,7 +604,33 @@ FUNC.unauthorized = function(obj, $) {
 		$.invalid('error-invalid-origin');
 		return true;
 	}
+						  )0
+						  
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						  
 	if (user.blocked || user.inactive) {
 		$.invalid('error-accessible');
 		return true;

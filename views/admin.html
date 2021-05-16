@@ -95,16 +95,17 @@
 					@{part('users')}
 
 					<div class="caption" data-name="applications">@(Applications)</div>
-
+<!--
 					<div class="item exec hidden red" data-exec="main/show" data-if="marketplace" data-bind="common.marketplace__show">
 						<i class="fa fa-shopping-bag"></i>
 						<span>@(Marketplace)</span>
 					</div>
-
+-->
 					<div class="item exec" data-exec="main/show" data-if="apps">
 						<i class="fa fa-rocket"></i>
 						<span>@(Applications)</span>
 					</div>
+					<!-- The repository will be available in the layout. -->
 
 					@{part('applications')}
 
@@ -144,7 +145,10 @@
 			<div data---="part__common.page__if:roles;url:/parts/roles.html;reload:roles/reload" class="hidden"></div>
 			<div data---="part__common.page__if:oauth;url:/parts/oauth.html;reload:oauth/reload" class="hidden"></div>
 			<div data---="part__common.page__if:apps;url:/parts/apps.html;reload:apps/reload" class="hidden"></div>
+<!--
 			<div data---="part__common.page__if:marketplace;url:/parts/marketplace.html;reload:marketplace/reload" class="hidden invisible"></div>
+-->
+			
 			<div data---="part__common.page__if:wiki;url:/parts/wiki.html" class="hidden invisible"></div>
 			<div data---="part__common.page__if:settings;url:/parts/settings.html;reload:settings/reload;delay:500" class="hidden invisible"></div>
 			<div data---="part__common.page__if:reports;url:/parts/reports.html;reload:reportsgrid/reload;delay:500" class="hidden invisible"></div>

@@ -18,7 +18,7 @@ error-invalid-accesstoken     : erreur-token-invalide
 T1bx8wg2                      : Bienvenue
 
 // definitions/openplatform.js, views/admin.html, views/tabbed.html, views/windowed.html
-T3mdnc1                       : Paneau de control
+T3mdnc1                       : Administration
 
 // definitions/openplatform.js
 T8259n1                       : Compte

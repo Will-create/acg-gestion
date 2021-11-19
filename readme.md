@@ -1,10 +1,4 @@
-# OpenPlatform v4.8
-
-- [Documentation](https://docs.totaljs.com/openplatform/)
-- [Join Total.js Telegram](https://t.me/totaljs)
-- [Support](https://www.totaljs.com/support/)
-
-OpenPlatform is a simple enterprise-ready platform for running, integrating and managing multiple web applications. __We recommend to use [bundled version](https://github.com/totaljs/openplatform-bundle)__.
+# Custom OpenPlatform app for entreprise
 
 ## Install instructions
 
